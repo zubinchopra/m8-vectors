@@ -1,26 +1,10 @@
-# Module 7: Introduction to Vectors
+# Introduction to Vectors
 
-## Overview
 In this module, we'll cover the foundational concepts for working with **vectors** in R. Understanding how R stores information in vectors, and the way in which operations are executed in _vectorized_ form is key to understanding how to efficiently write the R programming language.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Contents**
+Helpful links:
 
-- [Resources](#resources)
-- [What is a Vector?](#what-is-a-vector)
-- [Indexing Vectors](#indexing-vectors)
-  - [Position Indexing](#position-indexing)
-  - [Multiple Indicies](#multiple-indicies)
-  - [Logical Indices](#logical-indices)
-- [Modifying Vectors](#modifying-vectors)
-- [Vectorized Operations](#vectorized-operations)
-  - [Recycling](#recycling)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
 - [R Tutorial: Vectors](http://www.r-tutor.com/r-introduction/vector)
 
 
