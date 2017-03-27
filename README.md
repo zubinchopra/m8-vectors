@@ -1,26 +1,10 @@
-# Module 7: Introduction to Vectors
+# Introduction to Vectors
 
-## Overview
 In this module, we'll cover the foundational concepts for working with **vectors** in R. Understanding how R stores information in vectors, and the way in which operations are executed in _vectorized_ form is key to understanding how to efficiently write the R programming language.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Contents**
+Helpful links:
 
-- [Resources](#resources)
-- [What is a Vector?](#what-is-a-vector)
-- [Indexing Vectors](#indexing-vectors)
-  - [Position Indexing](#position-indexing)
-  - [Multiple Indicies](#multiple-indicies)
-  - [Logical Indices](#logical-indices)
-- [Modifying Vectors](#modifying-vectors)
-- [Vectorized Operations](#vectorized-operations)
-  - [Recycling](#recycling)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
 - [R Tutorial: Vectors](http://www.r-tutor.com/r-introduction/vector)
 
 
@@ -155,7 +139,7 @@ shoe.sizes <- c(7, 6.5, 4, 11, 8)
 shoe.sizes[shoe.sizes > 6.5]  # returns 7, 11, 8
 ```
 
-Understanding vector indexing is crucial for being able to ask real world questions of our datasets. To practice working with vectors, see [exercise-1](exercise-1).
+Understanding vector indexing is crucial for being able to ask real world questions of our datasets. To practice working with vectors, see [exercise-1](http://github.com/info201-s17/m8-vectors/tree/master/exercise-1).
 
 ## Modifying Vectors
 While we are unable to change the number of elements within a vector, we _are_ able to change the values within a vector. To achieve this, we isolate the element of interest on the **left-hand side** of our assignment, and then assign the element a new value:
