@@ -139,7 +139,7 @@ shoe.sizes <- c(7, 6.5, 4, 11, 8)
 shoe.sizes[shoe.sizes > 6.5]  # returns 7, 11, 8
 ```
 
-Understanding vector indexing is crucial for being able to ask real world questions of our datasets. To practice working with vectors, see [exercise-1](exercise-1).
+Understanding vector indexing is crucial for being able to ask real world questions of our datasets. To practice working with vectors, see [exercise-1](http://github.com/info201-s17/m8-vectors/tree/master/exercise-1).
 
 ## Modifying Vectors
 While we are unable to change the number of elements within a vector, we _are_ able to change the values within a vector. To achieve this, we isolate the element of interest on the **left-hand side** of our assignment, and then assign the element a new value:
